@@ -19,15 +19,18 @@ section {
     display: flexbox;
 }
 .subheader2 {
-    text-align: left;
+    text-align: center;
     background-color: burlywood;
     color: midnightblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-grow: 1;
     
 }
+.clearfix {
+    overflow: auto;
+}
 div ul {
-    background-color: firebrick;
+    background-color: paleturquoise;
     text-align: center;
 }
 
@@ -36,4 +39,12 @@ footer {
     background-color: rosybrown;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
+}
+.skyline {
+    float: left;
+    border: black;
+}
+.canal {
+    float: right;
+    border: black;
 }
