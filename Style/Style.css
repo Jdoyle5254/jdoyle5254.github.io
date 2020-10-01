@@ -1,15 +1,28 @@
-.header {
+header {
+    display: flexbox
     text-align: center;
     color: maroon;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .subheader {
+    text-align: left;
+    background-color: olive;
     color: midnightblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-grow: 1;
 }
-.section {
+section {
     display: flexbox;
 }
-.subheader {
+.subheader2 {
+    text-align: left;
+    background-color: burlywood;
+    color: midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-grow: 1;
     
+}
+div ul {
+    background-color: firebrick;
+    text-align: center;
 }
