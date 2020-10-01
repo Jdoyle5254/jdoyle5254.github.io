@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+    color: maroon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.subheader {
+    color: midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section {
+    display: flexbox;
+}
+.subheader {
+    
+}
