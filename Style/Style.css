@@ -1,11 +1,15 @@
 header {
-    display: flexbox
+    background-color: lightpink;
+    padding: 30px;
+    text-align: center;
+    border: thick, palegreen;
+    font-size: 35px;
     text-align: center;
     color: maroon;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .subheader {
-    text-align: left;
+    text-align: center;
     background-color: olive;
     color: midnightblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -25,4 +29,11 @@ section {
 div ul {
     background-color: firebrick;
     text-align: center;
+}
+
+footer {
+    text-align: left;
+    background-color: rosybrown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
 }
